@@ -1,0 +1,177 @@
+.shop-item
+{
+    display: inline;
+    
+}
+.shop-item .center
+{
+    text-align: center;
+}
+.shop-item .width
+{
+    width: 25vw !important;
+    min-height:400px;
+    float: left;
+    padding:1vw;
+    color: #262537;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:4px;
+}
+.shop-item .card{
+    transition: all 0.2s;
+}
+.shop-item .card:hover{
+    transform: scale(1.1);
+}
+.shop-item textarea
+{
+    background: transparent;
+}
+.shop-item img
+{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.shop-item .card
+{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    min-height: 300px;
+    overflow: hidden;
+    background: transparent;
+
+}
+.shop-item .name
+{
+    font-weight: 700;
+    margin-bottom:8px;
+}
+.shop-item .address
+{
+    margin-bottom:8px;
+}
+.shop-item textarea
+{
+    border: 0px solid white;
+    width: 100%;
+    height:80px;
+    text-align: center;
+    overflow: hidden;
+}
+.shop-item .address
+{
+    letter-spacing: 2px;
+}
+.shop-item button,
+.shop-item button::after {
+	transition: all 0.3s;
+}
+
+.shop-item button {
+  background: none;
+  
+  border-radius:3% !important;
+  border: 1px solid #262537 ;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size:1vw !important;
+  font-weight: 600;
+  margin: 1em auto;
+  padding:0.5vw 1.2vw;
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  left: -0.5vw;
+  margin-top: 0px;
+}
+
+
+.shop- button::before,
+.shop-item button::after {
+  background: #fff;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+.shop-item .btn-4
+{
+    position: relative;
+    z-index: 10;
+}
+.shop-item .btn-4::before {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .shop-item .btn-4::after {
+    background:#262537;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .ishop-tem .btn-4:hover:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+  
+  .shop-item button:hover {
+  color: #262537;
+}
+@media only screen and (max-width: 991px) {
+    .shop-item button{
+        font-size: 2vw !important;
+        
+    }
+}
+@media only screen and (max-width: 910px) {
+    .shop-item button{
+        font-size: 1.5vw !important;
+        
+    }
+    .shop-item .address
+    {
+        font-size: 1.5vw;
+    }
+    .shop-item textarea
+    {
+        font-size: 1.4vw;
+        height: 60px;
+    }
+    .shop-item img{
+        height: 130px;
+    }
+    .shop-item .card{
+        min-height:200px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .shop-item .width
+    {
+        width: 50vw !important;
+    }
+    .shop-item .width{
+        min-height: 200px;
+    }
+    .shop-item .address{
+        font-size: 3vw;
+        font-weight: 800;
+    }
+    .shop-item textarea{
+        height: 50px;
+        font-size: 3vw;
+    }
+    .shop-item button{
+        font-size: 2.5vw !important;
+        padding: 1vw 2vw;
+    }
+}
+
+
+
