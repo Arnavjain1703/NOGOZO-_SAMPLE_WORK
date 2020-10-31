@@ -1,13 +1,18 @@
 import React,{Component, component} from 'react'
+import { withRouter } from "react-router-dom";
 import './shop-item.css'
 class Body extends Component{
+    call=()=>
+    {    
+        this.props.history.replace('/shop_details'+this.props.element.image)
+    }
     render()
-    {   console.log(this.props.element.image)
+    {   
         return (
             
             <div  className="shop-item">
                 <div className="width">
-                <div className="card">
+                <div onClick={this.call} className="card">
                  <div className="image">
                     <img src={this.props.element.image}></img>
                   </div>  
@@ -28,4 +33,4 @@ class Body extends Component{
     }
 
 }
-export default Body
+export default withRouter(Body)
