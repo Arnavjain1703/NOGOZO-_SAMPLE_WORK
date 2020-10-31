@@ -1,0 +1,19 @@
+#Cart_Item img{
+    height:100px;
+}
+#Cart_Item .row{
+    height: 100px;
+    margin:20px 0px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
+    width: 100%;
+}
+#Cart_Item .col-xs-4
+{
+    width: 30%;
+}
+#Cart_Item .center
+{
+    text-align: center;
+    width: 100%;
+}

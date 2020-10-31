@@ -7,12 +7,12 @@ class Navbars extends React.Component{
         return(
             <div className='app'>
                <Navbar variant="dark" id="Navbar" style={{background:'#5DADE2',position:"fixed",top:0}} collapseOnSelect expand="lg">
-               <NavLink  exact className="logo" activeClassName="active" to="/"><img src="/assets/logo.svg"></img></NavLink>
+               <NavLink  exact className="logo" activeClassName="active" to="/">LOGO</NavLink>
                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                <Navbar.Collapse id="responsive-navbar-nav">
                <Nav className="mr-auto"></Nav>
                <Nav>
-               <Nav.Link  id="nav-link" ><NavLink id="Navlink" exact c to="/login">Login</NavLink></Nav.Link>
+               <Nav.Link  id="nav-link" ><NavLink id="Navlink" exact c to="/cart">Cart</NavLink></Nav.Link>
                <Nav.Link   id="nav-link">
                <NavLink exact id="Navlink"  to="/signup">Signup</NavLink>
                </Nav.Link>

@@ -1,0 +1,176 @@
+.product-item
+{
+    display: inline;
+    
+}
+.product-item .center
+{
+    text-align: center;
+}
+.product .btn-4
+{
+    position: relative;
+    z-index: 10;
+}
+.product-item .width
+{
+    width: 25vw !important;
+    min-height:400px;
+    float: left;
+    padding:1vw;
+    color: #262537;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing:4px;
+}
+.product-item textarea
+{
+    background: transparent;
+}
+.product-item img
+{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.product-item .card
+{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    min-height: 300px;
+    overflow: hidden;
+    background: transparent;
+
+}
+.product-item .name
+{
+    font-weight: 700;
+    margin-bottom:8px;
+}
+.product-item .address
+{
+    margin-bottom:8px;
+}
+.product-item textarea
+{
+    border: 0px solid white;
+    width: 100%;
+    height:80px;
+    text-align: center;
+    overflow: hidden;
+}
+.product-item .address
+{
+    letter-spacing: 2px;
+}
+.product-item button,
+.product-item button::after {
+	transition: all 0.3s;
+}
+
+.product-item button {
+  background:  #5dade2;
+  
+  border-radius:3% !important;
+  border: 1px solid #262537 ;
+  color:  #262537;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size:1vw !important;
+  font-weight: 600;
+  margin: 1em auto;
+  padding:0.5vw 1.2vw;
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  left: -0.5vw;
+  margin-top: 0px;
+}
+
+
+.product-button::before,
+.product-item button::after {
+  background:  #262537;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+.product-item .btn-4
+{
+    position: relative;
+    z-index: 10;
+}
+.product-item .btn-4::before {
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .product-item .btn-4::after {
+    background:#FFF;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  .product-item .btn-4:hover:after {
+    height: 0;
+    left: 50%;
+    top: 50%;
+    width: 0;
+  }
+  
+  .product-item button:hover {
+  color: #FFF;
+}
+@media only screen and (max-width: 991px) {
+    .product-item button{
+        font-size: 2vw !important;
+        
+    }
+}
+@media only screen and (max-width: 910px) {
+    .product-item button{
+        font-size: 1.5vw !important;
+        
+    }
+    .product-item .address
+    {
+        font-size: 1.5vw;
+    }
+    .product-item textarea
+    {
+        font-size: 1.4vw;
+        height: 60px;
+    }
+    .product-item img{
+        height: 130px;
+    }
+    .product-item .card{
+        min-height:200px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .product-item .width
+    {
+        width: 50vw !important;
+    }
+    .product-item .width{
+        min-height: 200px;
+    }
+    .product-item .address{
+        font-size: 3vw;
+        font-weight: 800;
+    }
+    .product-item textarea{
+        height: 50px;
+        font-size: 3vw;
+    }
+    .product-item button{
+        font-size: 2.5vw !important;
+        padding: 1vw 2vw;
+    }
+}
+
+
+
