@@ -2,7 +2,7 @@ import React,{Component, component} from 'react'
 import './body.css'
 class Body extends Component{
     render()
-    {   console.log(this.props.element.image)
+    {   console.log(this.props.element)
         return (
             
             <div  className="item">
