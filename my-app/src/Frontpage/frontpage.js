@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import Landing from './landing/landing';
 import Navbar from '../Navbar/Navbar'
+import Item from '../Item-cart/item-cart'
 class Frontpage extends Component{
    render()
    {
@@ -8,6 +9,7 @@ class Frontpage extends Component{
         <div>
             <Navbar></Navbar>
             <Landing></Landing>
+            <Item></Item>
         </div>
 
        )

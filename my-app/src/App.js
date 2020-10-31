@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import {BrowserRouter} from 'react-router-dom'
 import {Route,Switch} from 'react-router-dom'
 import Frontpage from './Frontpage/frontpage'
+
 import './App.css';
 
 function App() {
